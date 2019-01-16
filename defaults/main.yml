@@ -1,0 +1,5 @@
+---
+# defaults file for ansible-java
+
+java_version: 1.8.0
+java_type: openjdk

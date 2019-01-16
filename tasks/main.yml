@@ -1,0 +1,8 @@
+---
+# tasks file for ansible-java
+
+- name: Install java | JDK
+  yum:
+    name: "java-{{ java_version }}-openjdk.x86_64"
+    state: present
+  when: java_type == "openjdk"
